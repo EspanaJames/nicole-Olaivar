@@ -27,17 +27,6 @@ body{
     letter-spacing: 1vw;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-}
-.button {
-    margin: 10px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-=======
     position: relative;
     transition: transform 2s ease;
 }
@@ -145,4 +134,3 @@ body{
   height: 100px; 
   opacity: 1;
 }
->>>>>>> af274ee ('second')
