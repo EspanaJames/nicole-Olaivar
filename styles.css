@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body takes full height */
+}
+body{
+    background-image: linear-gradient(rgb(159, 22, 239),rgb(225, 0, 255));
+    background-repeat: no-repeat;
+    background-size: fill;
+    overflow: hidden;
+}
+.navbar{
+    display: grid;
+    position: static;
+    border-bottom: 1px solid white;
+    height: 10vh;
+    width: 94vw;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+    overflow: hidden; 
+}
+.navbar h1{
+    font-size: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1vw;
+    justify-content: center;
+    align-items: center;
+<<<<<<< HEAD
+}
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+=======
+    position: relative;
+    transition: transform 2s ease;
+}
+
+  .noButton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 25%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+  .placement{
+    display: flex;
+    position: fixed;
+    height: 8vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .forgiveMe{
+    display: grid;
+    position: fixed;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+}
+  .forgiveMe h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.move-up {
+  transform: translateY(-70px);
+}
+.button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 25%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease; 
+}
+
+.button .heart {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: all 0.5s ease; 
+  z-index: 1;
+}
+
+.button .heart:before, .button .heart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 50px; 
+  top: 0; 
+  width: 50px; 
+  height: 80px; 
+  background: rgb(249, 10, 10); 
+  border-radius: 50px 50px 0 0; 
+  transform: rotate(-95deg); 
+  transform-origin: -5% 85%;
+} 
+.button .heart:after { 
+  left: 0; 
+  transform: rotate(5deg); 
+  transform-origin :500% 240%; 
+}
+
+.button.active {
+  background-color: transparent; 
+  border: none; 
+  width: 100px;
+  height: 100px; 
+  border-radius: 0; 
+  padding: 0; 
+  box-shadow: none; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button.active .heart {
+  width: 100px;
+  height: 100px; 
+  opacity: 1;
+}
+>>>>>>> af274ee ('second')

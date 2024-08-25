@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HAPPY MONTHSARY!</title>
+</head>
+<body>
+    <section class="navbar">
+<<<<<<< HEAD
+        <div><h1>HAPPY MONTHSARY NICOLE!</h1></div>
+    </section>
+    <section>
+        <div>  
+            <button class="button" onclick="openResizedWindow()">Open Resized Window</button>
+            <script>
+              function openResizedWindow() {
+                window.open('about:blank', 'resizedWindow', 'width=800,height=600');
+              }
+=======
+        <div><h1 id="moving">HAPPY MONTHSARY NICOLE!</h1></div>
+    </section>
+    <section class="content">
+        <div class="forgiveMe"><h2>WILL YOU FORGIVE ME?</h2></div>
+        <div class="placement">  
+            <button id="heartButton" class="button" onclick="moveUp(); transformToHeart();"><span class="heart"></span>Yes</button>
+            <script>
+              function moveUp() {
+                var text = document.getElementById('moving');
+                text.classList.toggle('move-up');
+              }
+              function transformToHeart() {
+                var button = document.getElementById('heartButton');
+                button.classList.toggle('active'); 
+              }
+            </script>
+            <button class="noButton" onclick="hideButton()">No</button>
+            <script>
+                function hideButton() {
+                  document.querySelector('.noButton').style.display = 'none';
+                }
+>>>>>>> af274ee ('second')
+            </script>
+        </div>
+    </section>
+</body>
+</html>
